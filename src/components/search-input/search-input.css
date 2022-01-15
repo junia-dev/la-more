@@ -1,0 +1,29 @@
+.search-input {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.search-input svg {
+  fill: #bdbdbd;
+  margin-right: 15px;
+}
+
+.search-input input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+
+.search-input input:focus {
+  outline: none !important;
+  border: none;
+  border-width: 0;
+  box-shadow: none;
+}
+
+.search-input input::placeholder {
+  color: #bdbdbd;
+  opacity: 1;
+}

@@ -1,0 +1,65 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 15% 85%;
+  margin: 20px 0;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo svg {
+  width: 110px;
+}
+
+.right-section {
+  padding: 0 50px;
+  margin-left: 50px;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-title,
+.content-filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-title {
+  margin-bottom: 30px;
+}
+
+.content-filters .filter {
+  margin-left: 20px;
+}
+
+.deals-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.deals-container > div {
+  width: 48%;
+}
+
+.deals-container .card-component {
+  margin-bottom: 50px;
+}
